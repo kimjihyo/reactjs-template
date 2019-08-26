@@ -1,4 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import SampleComponent from './components/SampleComponent.jsx';
 
-ReactDOM.render(<h1>ReactJS Template</h1>, document.getElementById("root"));
+const root = document.getElementById("root");
+
+ReactDOM.render(<SampleComponent />, root);
