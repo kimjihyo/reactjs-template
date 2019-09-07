@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import SampleComponent from './components/SampleComponent.jsx';
+import App from './components/App.jsx';
 
 const root = document.getElementById("root");
 
-ReactDOM.render(<SampleComponent />, root);
+ReactDOM.render(<App />, root);
