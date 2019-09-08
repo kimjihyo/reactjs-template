@@ -5,10 +5,9 @@ You can manually configure Webpack & Babel for your ReactJS project.
 ## Recommended Dependencies
 - react-router-dom<br />
 This template is designed for single page web application. Therefore, the template does not include react-router-dom by default. If you would like to develop multi-page web application, add this dependency by running
-'''
+```
 npm install --save react-router-dom
-'''
-<br />
+```
 - axios<br />
 Most likely you would want to make http requests. There are many node packages for it. I would recommend to use axios.
 ```
